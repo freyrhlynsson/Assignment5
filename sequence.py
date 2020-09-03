@@ -7,8 +7,10 @@ n = int(input("Enter the length of the sequence: ")) # Do not change this line
 n_1,n_2,n_3 = 1,2,3
 
 if n < 4:
-    a = 0
-    print(a)
+    n_1 = 0
+    for i in range(0,n):
+        n_1 += 1
+        print(n_1)
 else:
     for number in (n_1,n_2,n_3):
         print(number)
